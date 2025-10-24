@@ -7,3 +7,12 @@ A simple Streamlit app that converts geographic coordinates from DMS (Degrees, M
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+
+works with these dms formats
+35°45'30"N, 82°18'45"W
+35°45'N 82°18'W
+35 45 30 N, 82 18 45 W
+35°45'N,82°18'W
+35 45 N 82 18 W
+

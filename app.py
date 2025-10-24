@@ -53,4 +53,4 @@ def dms_to_decimal(dms_str):
     direction = match.group(4).upper()
 
     decimal = deg + mins / 60 + secs / 3600
-        if direction in ["S", "W"]:
+    if direction in ["S", "W"]:
